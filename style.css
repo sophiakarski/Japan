@@ -1,0 +1,271 @@
+/*ALL PAGES--------------------------------------------------------------- */
+#bootstrap-override header {
+    width: 100%;
+    padding: 25px;
+    z-index: 10;
+    position: fixed;
+    text-align: center;
+    background: rgb(241, 241, 241);
+  }
+  
+  #bootstrap-override h1 {
+    margin: 0;
+    font-family: 'League Script', cursive;
+    font-weight: 900;
+    font-size: 36px;
+    color: black;
+    padding: 0;
+  }
+  
+  #bootstrap-override nav.navbar {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    padding-top: 10px;
+    letter-spacing: 0.1em;
+    margin: 0;
+  }
+  
+  #bootstrap-override nav i{
+    margin: 0 10px;
+  }
+  
+  #bootstrap-override nav i a {
+    font-style: normal;
+    color: black;
+    text-decoration: none;
+  }
+  
+  #bootstrap-override .current-link {
+    font-weight: 900;
+  }
+  
+  #bootstrap-override a:hover {
+   font-weight: 900;
+  }
+  p {
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    line-height: 1.5;
+  }
+  
+  #bootstrap-override .about-us {
+    position: absolute;
+    top: 15%;
+    padding: 10px;
+  }
+  
+  #bootstrap-override footer {
+    margin:0;
+    width: 100%;
+    bottom: 0;
+    padding: 10px 0;
+    background: white;
+    text-align: center;
+    position: relative;
+  }
+  
+  #bootstrap-override footer .inline {
+    /* putting social media icons in line with text */
+    display: inline;
+    padding: 0;
+  }
+  
+  #bootstrap-override.fab {
+    /* soial meadia icons */
+    font-size: 24px;
+    padding: 0;
+    display: inline;
+  }
+  /* index-page ----------------------------------------------------------------*/
+  #bootstrap-override.index-page .container-fluid {
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+  
+  #bootstrap-override .bg-image-container {
+    width: 100%;
+    height:100vh;
+    background-image: url("../images/bloom-blooming-blossom.jpg") ;
+    background-size: cover;
+  }
+  
+  #bootstrap-override.index-page div.container-fluid header {
+    /* transparent header */
+    background: none;
+  }
+  #bootstrap-override.index-page footer {
+    margin:0;
+    width: 100%;
+    right: 0;
+    position: fixed;
+    z-index: 10;
+    bottom: 0;
+    padding: 10px 0;
+    background-color: rgba(203, 228, 247, .75);
+    text-align: center;
+  }
+  
+  /* regions-page ----------------------------------------------------------------*/
+  #bootstrap-override .regions-container {
+    position: relative;
+    top: 100px;
+    size: 95%;
+    padding: 10px;
+  }
+  
+  #bootstrap-override .regions-container .row {
+    padding: 10px;
+  }
+  
+  #bootstrap-override .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .4s ease;
+    background-color: rgba(255,255,255,0.6);
+  }
+  
+  #bootstrap-override .col-sm-4:hover .overlay {
+    opacity: 1;
+  }
+  
+  #bootstrap-override .col-sm-4 img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  #bootstrap-override .col-sm-4 .text {
+    /*text over images upon hover  */
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 200px;
+    padding: 40px;
+  }
+  
+  #bootstrap-override .col-sm-4 a {
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  
+  
+  
+  /* contribute-page -------------------------------------------------------------*/
+  #bootstrap-override.contribute-page header {
+    left: 0;
+  }
+  
+  #bootstrap-override.contribute-page .container {
+    position: relative;
+    top: 100px;
+  }
+  
+  #bootstrap-override.contribute-page .container h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    padding: 10px;
+  }
+  
+  #bootstrap-override.contribute-page  .container .row {
+    padding: 6px;
+  }
+  /* form styles */
+  #bootstrap-override.contribute-page .container label {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  
+  #bootstrap-override.contribute-page .container [placeholder] {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+  }
+  
+  #bootstrap-override div.#form-container.container {
+    display: block;
+    width: 100%;
+    position: relative;
+    top: 100px;
+    padding-bottom: 0;
+  }
+  
+  /* individual region page ------------------------------------------------------*/
+  
+  #bootstrap-override.individual-region-page div.container{
+    position: relative;
+    size: 95%;
+    top: 100px;
+    padding-top: 20px;
+  }
+  
+  #bootstrap-override.individual-region-page div.container .information h2 {
+    margin: 20px 0;
+    display: inline;
+  }
+  
+  #bootstrap-override.individual-region-page div.container .information h2,
+  #bootstrap-override.individual-region-page div.container .information h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+  }
+  
+  #bootstrap-override.individual-region-page div.container .information span {
+    padding: 0 5px;
+    font-size: 20px;
+    font-style: italic;
+  }
+  
+  /* media queries ---------------------------------------------------------------*/
+  @media (max-width: 768px) {
+    #bootstrap-override header{
+  
+    }
+    #bootstrap-override header h1{
+      /* making header font small  */
+      display: block;
+      font-size: 20px;
+    }
+  
+    #bootstrap-override header nav{
+      /* making nav elements font small  */
+      display: inline;
+      font-size: 10px;
+    }
+  
+    #bootstrap-override.region-page .col-sm-4 {
+      /* added some padding so that regions aren't right on
+      top of each other when the screen is small */
+      padding-top: 20px
+    }
+  }
+  
+  @media (max-width: 375px) {
+    #bootstrap-override div header h1{
+      /* making header font small  */
+      display: block;
+      font-size: 20px;
+    }
+  
+    #bootstrap-override header nav {
+      /* making nav elements font small  */
+      display: block;
+    }
+  }
