@@ -10,7 +10,7 @@
   
   #bootstrap-override h1 {
     margin: 0;
-    font-family: 'League Script', cursive;
+    font-family: 'Baskervville', serif;
     font-weight: 900;
     font-size: 36px;
     color: black;
@@ -19,7 +19,7 @@
   
   #bootstrap-override nav.navbar {
     text-transform: uppercase;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Baskervville', serif;
     font-weight: 400;
     font-size: 15px;
     padding-top: 10px;
@@ -46,7 +46,7 @@
   }
   p {
     font-size: 17px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Baskervville', serif;
     font-weight: 200;
     line-height: 1.5;
   }
@@ -79,6 +79,13 @@
     padding: 0;
     display: inline;
   }
+
+
+
+
+
+
+  
   /* index-page ----------------------------------------------------------------*/
   #bootstrap-override.index-page .container-fluid {
     margin: 0;
@@ -105,10 +112,21 @@
     z-index: 10;
     bottom: 0;
     padding: 10px 0;
-    background-color: rgba(203, 228, 247, .75);
+    background-color:rgba(240, 111, 154, 0.75);
     text-align: center;
   }
   
+
+
+
+
+
+
+
+
+
+
+
   /* regions-page ----------------------------------------------------------------*/
   #bootstrap-override .regions-container {
     position: relative;
@@ -131,7 +149,7 @@
     width: 100%;
     opacity: 0;
     transition: .4s ease;
-    background-color: rgba(255,255,255,0.6);
+    background-color: white;
   }
   
   #bootstrap-override .col-sm-4:hover .overlay {
@@ -167,6 +185,13 @@
   }
   
   
+
+
+
+
+
+
+
   
   /* contribute-page -------------------------------------------------------------*/
   #bootstrap-override.contribute-page header {
@@ -179,7 +204,7 @@
   }
   
   #bootstrap-override.contribute-page .container h2{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Baskervville', serif;
     font-weight: 600;
     padding: 10px;
   }
@@ -189,13 +214,13 @@
   }
   /* form styles */
   #bootstrap-override.contribute-page .container label {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Baskervville', serif;
     text-transform: uppercase;
     font-weight: 500;
   }
   
   #bootstrap-override.contribute-page .container [placeholder] {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Baskervville', serif;
     font-weight: 200;
   }
   
@@ -207,6 +232,15 @@
     padding-bottom: 0;
   }
   
+
+
+
+
+
+
+
+
+
   /* individual region page ------------------------------------------------------*/
   
   #bootstrap-override.individual-region-page div.container{
@@ -223,7 +257,7 @@
   
   #bootstrap-override.individual-region-page div.container .information h2,
   #bootstrap-override.individual-region-page div.container .information h3{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Dancing Script', cursive;
     font-weight: 800;
   }
   
@@ -233,6 +267,15 @@
     font-style: italic;
   }
   
+
+
+
+
+
+
+
+
+
   /* media queries ---------------------------------------------------------------*/
   @media (max-width: 768px) {
     #bootstrap-override header{
