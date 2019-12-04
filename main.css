@@ -79,9 +79,7 @@
     padding: 0;
     display: inline;
   }
-
-
-
+  
 
 
 
@@ -112,7 +110,7 @@
     z-index: 10;
     bottom: 0;
     padding: 10px 0;
-    background-color:rgba(240, 111, 154, 0.75);
+    background-color: rgba(203, 228, 247, .75);
     text-align: center;
   }
   
@@ -149,7 +147,7 @@
     width: 100%;
     opacity: 0;
     transition: .4s ease;
-    background-color: white;
+    background-color: rgba(255,255,255,0.6);
   }
   
   #bootstrap-override .col-sm-4:hover .overlay {
