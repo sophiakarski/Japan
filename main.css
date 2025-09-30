@@ -156,7 +156,9 @@
   #bootstrap-override .col-sm-4 img {
     display: block;
     width: 100%;
-    height: auto;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
   }
   
   #bootstrap-override .col-sm-4 .text {
